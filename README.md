@@ -28,7 +28,7 @@ Follow these steps to get the project running on your local machine.
 Clone the repository:
 
 Bash
-# For Windows
+## For Windows
 python -m venv venv_stable
 .\venv_stable\Scripts\activate
 Install the required dependencies:
@@ -42,10 +42,10 @@ Create a file named .env in the root directory of the project.
 
 Copy the contents of .env.example (or the format below) into your new .env file.
 Plaintext
-# .env file
-# Your secret connection string for the MongoDB Atlas database
+## .env file
+## Your secret connection string for the MongoDB Atlas database
 MONGODB_URI="mongodb+srv://<username>:<password>@<cluster-url>/YourDatabaseName?retryWrites=true&w=majority"
-# Application environment and port
+## Application environment and port
 NODE_ENV="development"
 PORT=8000
 Replace the placeholder values with your actual MongoDB Atlas credentials.
